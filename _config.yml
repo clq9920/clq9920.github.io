@@ -111,3 +111,5 @@ friends: [
 ]
 
 theme: jekyll-theme-cayman
+
+# mathjax: true
