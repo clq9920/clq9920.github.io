@@ -105,8 +105,11 @@ friends: [
         title: "李宣-数学,计算机",
         href: "https://lixuan.xyz/web.html?category=%E5%8D%9A%E5%AE%A2"
     },{
-        title: "卢昌海",
+        title: "卢昌海-科普",
         href: "https://www.changhai.org"
+    },{
+        title: "比特之理-计算机",
+        href: "https://www.kylen314.com/"
     }
 ]
 
