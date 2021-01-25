@@ -33,3 +33,5 @@ Temporary Items
 
 # debug file
 _site
+.tool.pngtobase64.wl
+.vscode
