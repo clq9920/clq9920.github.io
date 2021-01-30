@@ -224,9 +224,9 @@
 	transform:translate(0,0) rotate(0)
 }
 }@font-face {
-	font-family:Flat-UI-Icons;
-	src:url(flat-ui-icons-regular.eot);
-	src:url(flat-ui-icons-regular.eot?#iefix) format('embedded-opentype'),url(flat-ui-icons-regular.woff) format('woff'),url(flat-ui-icons-regular.ttf) format('truetype'),url(flat-ui-icons-regular.svg#flat-ui-icons-regular) format('svg')
+    font-family:Flat-UI-Icons;
+    src:url(https://cdn.bootcdn.net/ajax/libs/flat-ui/2.3.0/fonts/glyphicons/flat-ui-icons-regular.eot);
+    src:url(https://cdn.bootcdn.net/ajax/libs/flat-ui/2.3.0/fonts/glyphicons/flat-ui-icons-regular.eot?#iefix) format('embedded-opentype'), url(https://cdn.bootcdn.net/ajax/libs/flat-ui/2.3.0/fonts/glyphicons/flat-ui-icons-regular.woff) format('woff'), url(https://cdn.bootcdn.net/ajax/libs/flat-ui/2.3.0/fonts/glyphicons/flat-ui-icons-regular.ttf) format('truetype'), url(https://cdn.bootcdn.net/ajax/libs/flat-ui/2.3.0/fonts/glyphicons/flat-ui-icons-regular.svg#flat-ui-icons-regular) format('svg')
 }
 [class*=fui-],[class^=fui-] {
 	font-family:Flat-UI-Icons;
