@@ -11,13 +11,13 @@ github_repo: "https://github.com/clq9920/clq9920.github.io.git" # you code repos
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "滑天下之大稽"
+sidebar-about-description: "滑天下之大稽" 
 sidebar-avatar: /img/huaji2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
-RSS: false
+RSS: true
 # weibo_username:     qiubaiying
 # zhihu_username:     qiubaiying
 github_username:    clq9920
