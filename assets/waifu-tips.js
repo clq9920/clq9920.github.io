@@ -42,8 +42,8 @@ $(document).on("visibilitychange", function() {
 });*/
 
 $('.waifu-tool .fui-home').click(function (){
-    //window.location = 'https://www.fghrsh.net/';
-    window.location = $('#Header1_HeaderTitle').attr("href")
+    window.location = 'https://clq9920.github.io';
+    // window.location = $('#Header1_HeaderTitle').attr("href")
 });
 
 $('.waifu-tool .fui-eye').click(function (){
@@ -60,7 +60,7 @@ $('.waifu-tool .fui-user').click(function (){
 });
 
 $('.waifu-tool .fui-info-circle').click(function (){
-    window.open('https://www.cnblogs.com/hean/p/11167216.html');
+    window.open('https://clq9920.github.io/2021/01/25/%E7%9C%8B%E6%9D%BF%E5%A8%98/');
 });
 
 $('.waifu-tool .fui-cross').click(function (){
@@ -77,7 +77,7 @@ $('.waifu-tool .fui-photo').click(function (){
 
 function waifuWelcome(){
     var text;
-    var SiteIndexUrl = 'https://www.cnblogs.com/hean/';  // 手动指定主页
+    var SiteIndexUrl = 'https://clq9920.github.io';  // 手动指定主页
     //var SiteIndexUrl = window.location.protocol+'//'+window.location.hostname+'/';  // 自动获取主页
 
     if (window.location.href == SiteIndexUrl) {      // 如果是主页

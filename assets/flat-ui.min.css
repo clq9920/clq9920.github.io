@@ -4235,7 +4235,7 @@ textarea.navbar-form .form-control, textarea.navbar-form .input-group-addon, tex
     background-color: transparent;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-top-radius: 6px
+    /* border-top-radius: 6px */
 }
 .video-js .vjs-tech {
     display: block;
@@ -4259,7 +4259,7 @@ textarea.navbar-form .form-control, textarea.navbar-form .input-group-addon, tex
     width: 100%!important;
     height: 100%!important;
     overflow: hidden;
-    border-top-radius: 0
+    /* border-top-radius: 0 */
 }
 .vjs-fullscreen .vjs-control-bar {
     margin-top: 0;
@@ -4276,7 +4276,7 @@ textarea.navbar-form .form-control, textarea.navbar-form .input-group-addon, tex
     padding: 0;
     margin: 0 auto;
     cursor: pointer;
-    border-top-radius: 6px
+    /* border-top-radius: 6px */
 }
 .vjs-control-bar {
     position: relative;
