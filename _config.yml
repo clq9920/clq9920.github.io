@@ -1,10 +1,10 @@
 # Site settings
 title: Think anything
 SEOTitle: clq的博客 | Think anything
-header-img: img/post-bg-desk.jpg
+header-img: img/rick-and-morty.jpg
 email: clq9920@163.com
 description: "Every failure is leading towards success."
-keyword: "物理,计算机,分享,生活"
+keyword: "物理,计算机,交流,生活"
 url: "https://clq9920.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/clq9920/clq9920.github.io.git" # you code repository
