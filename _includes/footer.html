@@ -269,23 +269,6 @@
 {% endif %}
 <!-- Gitalk 评论 start  -->
 <!-- {% if site.gitalk.enable %} -->
-<script type="text/x-mathjax-config">
-    var mathId = document.getElementById("gitalk-container");
-    MathJax.Hub.Config({
-        tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
-        }
-        });
-    if (mathId != null) {
-        window.onload = function() {
-            $(".gt-container").bind("DOMNodeInserted", function() {
-                MathJax.Hub.Queue(["Typeset", MathJax.Hub], document.getElementById("gitalk-container"));
-            })
-            MathJax.Hub.Queue(["Typeset", MathJax.Hub], mathId);
-        }
-    }
-</script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async="async" type="text/javascript"></script>
+
 <!-- disqus 评论框 end -->
 <!-- {% endif %} -->
