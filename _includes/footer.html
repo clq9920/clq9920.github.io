@@ -272,20 +272,11 @@
 <script type="text/x-mathjax-config">
     var mathId = document.getElementById("gitalk-container");
     MathJax.Hub.Config({
-        showProcessingMessages: false,
-        messageStyle: "none",
-        extensions: ["tex2jax.js"],
-        jax: ["input/TeX", "output/HTML-CSS"],
         tex2jax: {
-            inlineMath:  [ ["$", "$"] ],
-            displayMath: [ ["$$","$$"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code', 'a'],
-            ignoreClass:"comment-content"
-        },
-        "HTML-CSS": {
-            availableFonts: ["STIX","TeX"]
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
         }
-    });
+        });
     if (mathId != null) {
         window.onload = function() {
             $(".gt-container").bind("DOMNodeInserted", function() {
@@ -295,7 +286,6 @@
         }
     }
 </script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async="async">
-</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async="async" type="text/javascript"></script>
 <!-- disqus 评论框 end -->
 <!-- {% endif %} -->
