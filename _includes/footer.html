@@ -268,7 +268,7 @@
 </script>
 {% endif %}
 <!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
+<!-- {% if site.gitalk.enable %} -->
 <script type="text/x-mathjax-config">
     var mathId = document.getElementById("gitalk-container");
     MathJax.Hub.Config({
@@ -295,7 +295,7 @@
         }
     }
 </script>
-<script src="<%- theme.CDN.mathjax %>?config=TeX-AMS-MML_HTMLorMML" async="async">
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async="async">
 </script>
 <!-- disqus 评论框 end -->
-{% endif %}
+<!-- {% endif %} -->
