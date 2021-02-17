@@ -123,9 +123,25 @@ TensorContract[
  dg
  \[TensorProduct]
  Array[b, {4}]
- , {{1, 2}, {3, 4}}
+ , { {1, 2}, {3, 4} }
  ]
 ```
 
 $e^{i,j,l,m}e_{i,j,l,m}=-24$
 
+
+```mathematica
+TensorContract[
+ TensorContract[
+   LeviCivitaTensor[4]\[TensorProduct](dg\[TensorProduct]dg\[TensorProduct]dg\[TensorProduct]dg), {{1, 5}, {2, 7}, {3, 9}, {4, 11}}]\[TensorProduct]LeviCivitaTensor[4],
+ {{1, 5}, {2, 6}, {3, 7}, {4, 8}}
+ ]
+```
+
+## 注意
+
+这种方式计算张量实际上相当于张量全部展开,所以对于高阶张量,计算较慢.
+
+# 基于mathematica张量计算包的计算
+
+待定
