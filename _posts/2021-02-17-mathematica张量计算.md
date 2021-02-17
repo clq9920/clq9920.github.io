@@ -97,3 +97,20 @@ $$
 \end{array}
 \right)
 $$
+
+```mathematica
+Array[a,{4}]\[TensorProduct]Array[b,{4}]
+```
+
+### 张量缩并
+
+$a^ib^i=a^0b^0+a^1b^1+a^2b^2+a^3b^3$
+
+```mathematica
+TensorContract[Array[a,{4}]\[TensorProduct]Array[b,{4}],{{1,2}}]
+```
+
+
+## 简单算例
+
+$a_i a^i={a_0}^2-{a_1}^2-{a_2}^2-{a_3}^2$
