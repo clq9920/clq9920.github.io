@@ -114,3 +114,12 @@ TensorContract[Array[a,{4}]\[TensorProduct]Array[b,{4}],{{1,2}}]
 ## 简单算例
 
 $a_i a^i={a_0}^2-{a_1}^2-{a_2}^2-{a_3}^2$
+
+```mathematica
+dg = DiagonalMatrix[{1, -1, -1, -1}];
+TensorContract[
+ Array[a, {4}]\[TensorProduct]dg\[TensorProduct]Array[b, {4}], {{1, 2}, {3, 4}}]
+```
+
+$e^{i,j,l,m}e_{i,j,l,m}=-24$
+
