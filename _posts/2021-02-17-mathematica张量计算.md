@@ -23,7 +23,7 @@ tags:
 
 ### 单位四维张量($\delta_i^k$):
 
-$
+$$
 \left(
 \begin{array}{cccc}
  1 & 0 & 0 & 0 \\
@@ -32,5 +32,5 @@ $
  0 & 0 & 0 & 1 \\
 \end{array}
 \right)
-$
+$$
 
