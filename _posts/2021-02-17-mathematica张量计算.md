@@ -133,8 +133,8 @@ $e^{i,j,l,m}e_{i,j,l,m}=-24$
 ```mathematica
 TensorContract[
  TensorContract[
-   LeviCivitaTensor[4]\[TensorProduct](dg\[TensorProduct]dg\[TensorProduct]dg\[TensorProduct]dg), {{1, 5}, {2, 7}, {3, 9}, {4, 11}}]\[TensorProduct]LeviCivitaTensor[4],
- {{1, 5}, {2, 6}, {3, 7}, {4, 8}}
+   LeviCivitaTensor[4]\[TensorProduct](dg\[TensorProduct]dg\[TensorProduct]dg\[TensorProduct]dg), { {1, 5}, {2, 7}, {3, 9}, {4, 11} }]\[TensorProduct]LeviCivitaTensor[4],
+ { {1, 5}, {2, 6}, {3, 7}, {4, 8} }
  ]
 ```
 
