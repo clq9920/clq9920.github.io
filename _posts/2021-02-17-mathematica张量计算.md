@@ -101,7 +101,7 @@ $
 ```mathematica
 Array[a,{4}]\[TensorProduct]Array[b,{4}]
 ```
-
+<!-- 
 ### 张量缩并
 
 $a^ib^i=a^0b^0+a^1b^1+a^2b^2+a^3b^3$
@@ -138,4 +138,4 @@ TensorContract[
 
 # 基于mathematica张量计算包的计算
 
-待定
+待定 -->
