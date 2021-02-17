@@ -34,3 +34,6 @@ $$
 \right)
 $$
 
+```mathematica
+DiagonalMatrix[{1, 1, 1, 1}]
+```
