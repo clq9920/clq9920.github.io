@@ -9,8 +9,7 @@ catalog: true
 tags:
     - mathematica
     - vscode
-    - 笔记
-    - 物理
+    - 前端
 ---
 
 # 简介
