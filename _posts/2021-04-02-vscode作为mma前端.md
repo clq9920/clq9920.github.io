@@ -4,7 +4,7 @@ title:      用vscode作为mathematica前端
 subtitle:   如果不涉及三维和排版,基本能代替原本的notebook
 date:       2021-04-02
 author:     CLQ
-header-img: img/post-bg-cook.jpg
+header-img: img/nothing-in-here.jpg
 catalog: true
 tags:
     - mathematica

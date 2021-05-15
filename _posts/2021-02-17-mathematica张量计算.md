@@ -4,7 +4,7 @@ title:      mathematica张量计算
 subtitle:   一个技术性笔记
 date:       2021-02-17
 author:     CLQ
-header-img: img/post-bg-cook.jpg
+header-img: img/nothing-in-here.jpg
 catalog: true
 tags:
     - mathematica
