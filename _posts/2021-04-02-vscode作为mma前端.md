@@ -88,3 +88,8 @@ shift+enter实现插件:macros @geddski
 
 打开vscode后,打开一个mma文件,如*.wl,输入alt+D,开启code-block插件,再打开一个终端,即可实现展示效果.
 
+
+
+# 2022年2月15日更新
+
+[更新内容](./mma-vscode.html)
