@@ -92,4 +92,4 @@ shift+enter实现插件:macros @geddski
 
 # 2022年2月15日更新
 
-[更新内容](./mma-vscode.html)
+[更新内容](https://clq9920.github.io/down/mma-vscode.html)
