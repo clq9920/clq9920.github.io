@@ -49,4 +49,15 @@ openvdb格式应该是渲染器中比较通用的稀疏数据结构。
       <source id="mp4" src="https://clq9920.github.io/draw/20221008/movie.mp4" type="video/mp4">
 </videos>
 
-[](https://clq9920.github.io/draw/20221008/movie.mp4)
+<iframe 
+src="https://clq9920.github.io/draw/20221008/movie.mp4" 
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+height=600 
+width=800> 
+</iframe>
+
+
