@@ -45,10 +45,6 @@ openvdb格式应该是渲染器中比较通用的稀疏数据结构。
 
 最后放一个视频(还是很丑...)：
 
-<video id="video" controls="" preload="none">
-      <source id="mp4" src="https://clq9920.github.io/draw/20221008/movie.mp4" type="video/mp4">
-</videos>
-
 <iframe 
 src="https://clq9920.github.io/draw/20221008/movie.mp4" 
 scrolling="no" 
