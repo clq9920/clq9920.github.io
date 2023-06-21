@@ -53,8 +53,22 @@
 
     <!-- ga & ba script hoook -->
     <script></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            tags: 'ams'
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-svg.min.js">
+    </script>
     <!-- 数学公式 -->
-    <script type="text/x-mathjax-config">
+    <!-- <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
         tex2jax: {
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
@@ -66,5 +80,5 @@
         });
     </script>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
-       
+        -->
 </head>
