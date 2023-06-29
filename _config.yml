@@ -98,6 +98,15 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "wowking",
+        href: "https://wowking2018.github.io"
+    },{
+        title: "SH",
+        href: "https://suhongqwq.github.io"
+    },{
+        title: "Maggie",
+        href: "https://maggiexheuw.github.io"
+    },{
         title: "猪猪-mma",
         href: "https://github.com/yangyongkang2000"
     },{
