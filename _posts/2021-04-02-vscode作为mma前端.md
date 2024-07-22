@@ -12,6 +12,8 @@ tags:
     - 前端
 ---
 
+已过时，直接安装vscode中的mathematica notebook插件即可。
+
 # 简介
 
 由于mma原本前端的一些缺陷,如没有vscode这样相对专业的代码管理功能,特殊计算时内核容易崩溃,因此mma已经有许多代替原本notebook前端的方案,如Jupyter Notebook,本文将介绍一种类似于Jupyter Notebook的方案,实现shift+enter功能,图片显示功能,wolfram lauguage server语法插件功能,markdown排版功能,latex显示,三维文件查看(还未正式加入)等功能.此外此方法还能够适应远程开发的需求,解决前端难以大规模print的问题,对数据处理较为友好.
